@@ -20,5 +20,5 @@ def inicio():
    '''
    print("In inicio \n")
    texto = scrap.getProducts(dir)
-   return jsonify({"inicio": "Servidor scraping", "version": "1.0.0", 'products': texto})
+   return jsonify({'products': texto})
 
